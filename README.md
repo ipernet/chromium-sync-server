@@ -15,7 +15,7 @@ This is the test sync server used in Chromium development that can run in standa
 
  * Anyone knowing your *sync-url* will be able to fetch your encrypted sync data and brute-force it offline.
 
- * If you don't use an  **explicit passphrase** when activating sync, your sync data will be in clear text (excepts: `Passwords`, `WiFi Credentials`).
+ * If you don't use an  **explicit passphrase** when activating sync, your sync data will be in clear text (excluding `Passwords` and `WiFi Credentials`).
 
 **Notes:**
 
