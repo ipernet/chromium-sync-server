@@ -1,0 +1,19 @@
+diff -urN --new-file a/server.py b/server.py
+--- a/server.py	1970-01-01 01:00:00.000000000 +0100
++++ b/server.py	2017-02-14 16:09:08.764884198 +0100
+@@ -0,0 +1,14 @@
++from sync.testserver import sync_testserver
++import sys
++
++class SyncServer(sync_testserver.SyncServerRunner):
++
++  def __init__(self):
++    super(SyncServer, self).__init__()
++
++  def run_server(self):
++    sync_testserver.SyncServerRunner.run_server(self)
++
++if __name__ == '__main__':
++  sys.exit(SyncServer().main())
++
+
