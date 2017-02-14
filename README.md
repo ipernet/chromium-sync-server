@@ -1,6 +1,6 @@
 # chromium-sync-server
 
-## ! Experimental
+## ❗️ Experimental
 
 This is the test sync server used in Chromium development that can run in standalone mode.
 
@@ -11,7 +11,7 @@ This is the test sync server used in Chromium development that can run in standa
 
 ## Security
 
-:bangbang: Totally unsafe, use at your own risks :bangbang:
+❗️❗️ Totally unsafe, use at your own risks ❗️❗️
 
  * Anyone knowing your *sync-url* will be able to fetch your encrypted sync data and brute-force it offline.
 
@@ -25,7 +25,7 @@ When using an **explicit passphrase**, the whole set of syncable data types are 
 
 **ref:** chrome://sync-internals/
 
-> **Conclusion:** Use the Google Sync default sync server and set a passphrase there!
+> **Conclusion:** Use the Google Sync default sync server and set a passphrase there! ✔️
 
 
 ## Usage
